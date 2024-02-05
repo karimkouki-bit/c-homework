@@ -1,0 +1,251 @@
+Problem #7
+int Num;
+
+     cout << "Please enter a number ! \n";
+     cin >> Num;
+
+     int HalfNumber = Num / 2;
+     cout << "Half of " << Num << " is " << HalfNumber << endl;
+
+Problem #9
+ int Num1, Num2, Num3;
+
+     cout << "Please enter Number 1, Number2, Number 3\n";
+     cin >> Num1;
+     cin >> Num2;
+     cin >> Num3;
+     int Sum = Num1 + Num2 + Num3;
+
+     cout << Sum;
+
+Problem #10
+int Mark1, Mark2, Mark3;
+     cout << "Please enter mark 1, mark2, mark3\n";
+     cin >> Mark1;
+     cin >> Mark2;
+     cin >> Mark3;
+
+     int avg = (Mark1 + Mark2 + Mark3) / 3;
+     cout << avg;
+
+Problem #14
+int Number1, Number2;
+     cout << "Enter Number 1 & Number 2\n";
+     cin >> Number1;
+     cin >> Number2;
+
+     int temp = Number1;
+     Number1 = Number2;
+     Number2 = temp;
+
+     cout << Number1 << endl;
+     cout << Number2 << endl;
+
+Problem #15
+int a, b;
+     cout << "Enter a ,b \n";
+     cin >> a;
+     cin >> b;
+
+     int area = a * b;
+     cout << area;
+
+
+Problem #17
+short a, h, area;
+     cout << "Please enter a and h \n";
+     cin >> a;
+     cin >> h;
+
+     area = a / 2 * h;
+     cout << "The rectangular area is : " << area << endl;
+
+Problem #19
+short D, area;
+     const int PI = 3.14;
+     cout << "Enter a d\n";
+     cin >> D;
+     area = (PI * D * D) / 4;
+     cout << "The circle of the area is : " << area;
+
+Problem #20
+ int A;
+     cout << "AAAAAAAAAAAAAAAA" << endl;
+     cin >> A;
+     const float pi = 3.14;
+     float area = (pi * (A * A)) / 4;
+     cout << area << endl;
+
+Problem #21
+short L;
+     cout << "Enter a L\n";
+     cin >> L;
+     const float PI = 3.14;
+     double area = (L * L) / (4 * PI);
+     cout << "The circle area is : " << area << endl;
+
+Problem #22
+const float PI = 3.14;
+     float a, b;
+     cout << "please enter a , b" << endl;
+     cin >> a;
+     cin >> b;
+     float area = ((PI * pow(b, 2)) / 4) * ((2 * a - b) / (2 * a + b));
+     cout << "area= " << area << "    floor(area)= " << floor(area) << endl;
+
+Problem #31
+int Num;
+     short a, b, c;
+     cout << "PLease enter a number\n";
+     cin >> Num;
+     a = Num * Num;
+     b = Num * Num * Num;
+     c = Num * Num * Num * Num;
+     cout << a << endl;
+     cout << b << endl;
+     cout << c << endl;
+
+Problem #39
+int total_bill;
+
+	int total_paid;
+	cout << "enter total bill \n";
+	cin >> total_bill;
+	cout << "enter total paid \n";
+	cin >> total_paid;
+	int remainder = total_bill - total_paid;
+	cout << remainder;
+	return 0;
+
+Problem #40
+int BillValue;
+     cout << "Enter your Total bill\n";
+     cin >> BillValue;
+     float TotalBill = BillValue * 1.1;
+     TotalBill = TotalBill * 1.16;
+     cout << TotalBill;
+
+Problem #42
+double NumberOfDays, NumberOfHours, NumberOfMinutes, NumberOfSeconds;
+     cout << "Enter The Number Of Day\n";
+     cin >> NumberOfDays;
+     cout << "Enter The Number Of Hours\n";
+     cin >> NumberOfHours;
+     cout << "Enter The Number Of Minutes\n";
+     cin >> NumberOfMinutes;
+     cout << "Enter The Number Of Seconds\n";
+     cin >> NumberOfSeconds;
+
+     double TotalSeconds = (NumberOfDays * 24 * 60 * 60) + (NumberOfHours * 60 * 60) + (NumberOfMinutes * 60) + NumberOfSeconds;
+     cout << TotalSeconds << "Seconds";
+
+Problem #43
+int numSec;
+     cout << "Please enter total seconds \n";
+     cin >> numSec;
+     int day = numSec / 86400;
+
+     int Remainder = numSec % 86400;
+
+     int hour = Remainder / (60 * 60);
+
+     Remainder = Remainder % (60 * 60);
+
+     int min = Remainder / 60;
+
+     Remainder = Remainder % 60;
+
+     int sec = Remainder;
+
+     cout << day << ":" << hour << ":" << min << ":" << sec;
+
+Problem #47
+int LoanAmount, MonthlyInstallment, TotalMonths;
+     cout << "Enter Your LoanAmount\n";
+     cin >> LoanAmount;
+     cout << "Enter How Monthly Instalment you can pay\n";
+     cin >> MonthlyInstallment;
+     TotalMonths = LoanAmount / MonthlyInstallment;
+     cout << TotalMonths << "Months" << endl;
+Problem #48
+int LoanAmount, NumberOfMonths;
+
+     cout << "Please enter your Loan Amount?" << endl;
+
+     cin >> LoanAmount;
+
+     cout << "Please enter number of months that you can pay?" << endl;
+
+     cin >> NumberOfMonths;
+
+     int monthlyPayment = LoanAmount / NumberOfMonths;
+
+     cout << "MonthlyPayment: " << monthlyPayment << endl;
+
+#logical operator
+
+int result0, result1, result2, result3, result4, result5, result6, result7, result8, result9, result10, result11, result12, result13, result14, result15, result16, result17, result18, result19, result20, result21, result22, result23, result24;
+
+     result0 = 12 >= 12;
+     result1 = 12 > 7;
+     result2 = 8 < 6;
+     result3 = 8 == 8;
+     result4 = 12 <= 12;
+     result5 = 7 == 5;
+     result6 = !(12 >= 12);
+     result7 = !(12 < 7);
+     result8 = !(8 < 6);
+     result9 = !(8 == 8);
+     result10 = !(12 <= 12);
+     result11 = !(7 == 5);
+     result12 = 1 && 1;
+     result13 = 1 && 0;
+     result14 = 0 || 1;
+     result15 = 0 || 0;
+     result16 = !0;
+     result17 = !(1 || 0);
+     result18 = (7 == 7) && (7 > 5);
+     result19 = (7 == 7) && (7 < 5);
+     result20 = (7 == 7) || (7 < 5);
+     result21 = (7 < 7) || (7 > 5);
+     result22 = !(7 == 7) && (7 > 5);
+     result23 = (7 == 7) && !(7 < 5);
+     cout << result0 << endl;
+     cout << result1 << endl;
+     cout << result2 << endl;
+     cout << result3 << endl;
+     cout << result4 << endl;
+     cout << result5 << endl;
+     cout << result6 << endl;
+     cout << result7 << endl;
+     cout << result8 << endl;
+     cout << result9 << endl;
+     cout << result10 << endl;
+     cout << result11 << endl;
+     cout << result12 << endl;
+     cout << result13 << endl;
+     cout << result14 << endl;
+     cout << result15 << endl;
+     cout << result16 << endl;
+     cout << result17 << endl;
+     cout << result18 << endl;
+     cout << result19 << endl;
+     cout << result20 << endl;
+     cout << result21 << endl;
+     cout << result22 << endl;
+     cout << result23 << endl;
+
+     int a, b, c, d, e, f;
+     a = (5 > 6 && 7 == 7) || (1 || 0);
+     b = !(5 > 6 && 7 == 7) || (1 || 0);
+     c = !(5 > 6 && 7 == 7) || !(1 || 0);
+     d = !(5 > 6 || 7 == 7) && !(1 || 0);
+     e = ((5 > 6 && 7 <= 8) || (8 > 1 && 4 <= 3)) && 1;
+     f = ((5 > 6 && !(7 <= 8))) && (8 > 1 || 4 <= 3) || 1;
+
+     cout << a << endl;
+     cout << b << endl;
+     cout << c << endl;
+     cout << d << endl;
+     cout << e << endl;
+     cout << f << endl;
